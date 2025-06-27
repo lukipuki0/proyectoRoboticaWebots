@@ -1,0 +1,396 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.3186219705523549 0.0017003448723533008 -0.9478803451431248 3.1080466047665913
+  position 5.780731091873054 0.5882950962604716 3.997245830154808
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+Solid {
+  translation -2 -0.55 0.07057
+  rotation 1.1968015118612861e-17 3.939365347889073e-18 -0.9999999999999999 1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.9 0.2
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.5 -1.18 0.07057
+  rotation -4.01432e-18 -7.95369e-18 1 3.14159
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.9 0.2
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.5 1.11 0.07057
+  rotation -4.01432e-18 -7.95369e-18 1 3.14159
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.9 0.2
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.5 -1.75 0.07057
+  rotation 1.1968015118612861e-17 3.939365347889073e-18 -0.9999999999999999 1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 1.49 0.2
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -2.000000081151149 0.5499999999993118 0.07056997351683356
+  rotation 3.7111986401998033e-07 -3.711214331416712e-07 -0.9999999999998623 1.570795307157755
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.9 0.2
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.35 -0.27 0.0708273
+  rotation 0.0012845202295509771 -0.0001898098245731266 0.9999991569896499 3.129801478317881
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 3 0.2
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.78591 1.99866 0.0703123
+  rotation 0.0004603167940373341 -0.00041264054033490077 0.9999998089180985 1.5662295887464375
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 1 0.2
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.76063 2.0345 0.0703123
+  rotation 0.0004603167940373341 -0.00041264054033490077 0.9999998089180985 1.5662295887464375
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 3.5 0.2
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Solid {
+  translation 2.28 0.43 0.0703123
+  rotation -0.18732398256225855 -0.010230599047647082 0.9822449085641223 -0.004645307179586666
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 3.5 0.2
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject Box {
+    size 0.5 0.75 0.2
+  }
+  physics Physics {
+  }
+}
+Robot {
+  translation -2.09 -0.04 0.0396943
+  rotation -0.0028525613876280347 0.001699990826960268 0.9999944864471594 0.0235807
+  children [
+    DEF gps GPS {
+      translation -0.07 0 0.08
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.333333 1 1
+          }
+          geometry Cylinder {
+            height 0.1
+            radius 0.01
+          }
+        }
+      ]
+      boundingObject Shape {
+        appearance PBRAppearance {
+        }
+        geometry Cylinder {
+          height 0.1
+          radius 0.01
+        }
+      }
+      physics Physics {
+      }
+    }
+    DEF lidar Lidar {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Cylinder {
+            height 0.05
+            radius 0.025
+          }
+        }
+      ]
+      boundingObject Shape {
+        appearance PBRAppearance {
+        }
+        geometry Cylinder {
+          height 0.05
+          radius 0.025
+        }
+      }
+      physics Physics {
+      }
+      horizontalResolution 128
+      fieldOfView 2.75
+    }
+    DEF BODY Shape {
+      appearance PBRAppearance {
+        baseColor 0.917647 0.145098 0.145098
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.05
+      }
+    }
+    DEF WHEEL1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 88.64143407338963
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.0500024928224987 0.060000074977490575 7.462653096756323e-06
+        rotation 0.8952330038101264 0.31508500839883924 -0.3150861887982424 1.681246405086205
+        children [
+          DEF WHEEL Shape {
+            appearance PBRAppearance {
+              baseColor 0.305882 0.898039 0.25098
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+              subdivision 24
+            }
+          }
+        ]
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL2 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 81.09017252629843
+        axis 0 1 0
+        anchor 0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation 0.049993633323929504 -0.05999992603303746 4.583623054686842e-06
+        rotation -0.9184403588949175 0.2797021822168508 -0.279703407945107 4.627409127476852
+        children [
+          USE WHEEL
+        ]
+        name "solid(1)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL3 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 88.64143938827306
+        axis 0 1 0
+        anchor -0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation -0.050007769688412224 0.05999992617847074 -1.1335909730956413e-06
+        rotation 0.8952314950546963 0.31508714972448437 -0.315088334186833 1.6812480760310837
+        children [
+          USE WHEEL
+        ]
+        name "solid(2)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL4 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 81.09018057674135
+        axis 0 1 0
+        anchor -0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.0500011409255442 -0.06000007517922183 -7.963043626641379e-06
+        rotation -0.918442434407061 0.27969877735347576 -0.27969999754630365 4.627411379753932
+        children [
+          USE WHEEL
+        ]
+        name "solid(3)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF DS_RIGHT DistanceSensor {
+      translation 0.1 -0.03 0
+      rotation 0 0 1 -0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.184314 0.596078 0.847059
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_right"
+    }
+    DEF DS_LEFT DistanceSensor {
+      translation 0.1 0.03 0
+      rotation 0 0 1 0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.184314 0.596078 0.847059
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_left"
+    }
+  ]
+  boundingObject USE BODY
+  physics Physics {
+    density -1
+    mass 1
+  }
+  controller "pepe"
+}
